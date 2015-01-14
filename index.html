@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Responsive Form</title>
+  <link rel="stylesheet" href="styles/main.css">
+  <link href="http://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+</head>
+<body>
+  <div class="form-container">
+    <h1 class="heading">Create Your SuperHero</h1>
+    <form>
+      <div class="form-column">
+        <p>FIRST NAME</p>
+        <input type="text" name="FirstName"/>
+        <label for="FirstName">John</label>
+        <p>LAST NAME</p>
+        <input type="text" name="Last Name"/>
+        <p>EMAIL ADDRESS</p>
+        <input type ="text" name="Email Address"/>
+        <p>COUNTRY</p>
+        <select name="Country">
+          <option value="Choose" selected>Choose a country</option>
+          <option value="America">America</option>
+          <option value="Mexico">Mexico</option>
+          <option value="Germany">Germany</option>
+          <option value="The UK">The UK</option>
+          <option value="France">France</option>
+        </select>
+        <p>BIOGRAPHY</p>
+        <textarea name="Biography" cols="30" rows="10"></textarea>
+      </div>
+      <div class="form-column">
+        <p>PHONE NUMBER</p>
+        <input type="text" name="Phone Number"/>
+        <p>AFFILIATIONS</p>
+        <textarea name="Affiliations" cols="30" rows="10"></textarea>
+        <p>OCCUPATION</p>
+        <select name="Occupation">
+          <option value="Choose" selected>Choose an occupation</option>
+          <option value="Plumber">Plumber</option>
+          <option value="Reporter">Reporter</option>
+          <option value="Foreman">Foreman</option>
+          <option value="Programmer">Programmer</option>
+          <option value="Bad-Ass Secret Agent">Bass-Ass Secret Agent</option>
+        </select>
+        <p>CAT'S NAME</p>
+        <input type="text" name="Cat's Name"/>
+        <p class="gadget">FAVORITE GADGET</p>
+        <input type="text" Name="Favorite Gadget">
+      </div>
+      <div class="form-column">
+        <p>TYPE OF TALENT</p>
+        <select name="Talent">
+          <option value="Choose" selected>Choose a talent</option>
+          <option value="Parseltongue">Parseltongue</option>
+          <option value="SpideySenses">Spidey Senses</option>
+          <option value="Rap">Sick Rap Flow</option>
+          <option value="Calligraphy">Calligraphy</option>
+          <option value="Beats">Beats</option>
+        </select>
+        <p>FAVORITE DRINK</p>
+        <input type="text" name="Favorite Drink"/>
+        <p>SUPERPOWER</p>
+        <input type="text" name="Superpower"/>
+        <p>WEAPON OF CHOICE</p>
+        <input type="text" name="weapon"/>
+        <p>COMMENTS</p>
+        <textarea name="Comments" cols="30" rows="10"></textarea>
+      </div>
+    </form>
+  </div>
+  <div class="button">
+    <p class="button-text">Submit</p>
+  </div>
+</body>
+</html>
